@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AWAC Universe Outpost</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* Disables standard image saving and dragging traps */
+        .no-select {
+            -webkit-touch-callout: none;
+            -webkit-user-select: none;
+            -khtml-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+        }
+    </style>
+</head>
+<body class="bg-[#1B2613] text-white font-sans min-h-screen flex flex-col justify-center items-center p-6 no-select">
+
+    <div class="max-w-2xl w-full bg-[#121A0D] border-2 border-[#F97316] rounded-2xl p-8 text-center shadow-2xl relative overflow-hidden">
+        
+        <div class="absolute top-0 left-0 w-full h-2 bg-[#F97316]"></div>
+        
+        <h1 class="text-4xl font-extrabold tracking-wider text-[#F97316] uppercase mb-2">
+            AWAC Universe
+        </h1>
+        <p class="text-xs tracking-widest text-gray-400 uppercase mb-8">
+            The Outpost Central Hub
+        </p>
+
+        <div class="relative w-full aspect-square max-w-md mx-auto mb-8 rounded-lg overflow-hidden border border-gray-800 shadow-inner group">
+            <img 
+                src="awac-crew-outpost.jpg" 
+                alt="AWAC Crew at the Outpost" 
+                class="w-full h-full object-cover pointer-events-none"
+                oncontextmenu="return false;"
+            >
+            <div class="absolute inset-0 bg-transparent z-10"></div>
+        </div>
+
+        <div class="space-y-4 max-w-lg mx-auto">
+            <h2 class="text-2xl font-bold tracking-tight text-white">
+                Stepping Out of the Shadows
+            </h2>
+            <p class="text-gray-300 text-base leading-relaxed">
+                Deep within a forgotten cedar grove, a partnership was formed. The AWAC Outpost is a destination where hidden wilderness lore meets scratch-made tradition—a rustic sanctuary where the smoky fires of the high-country blend seamlessly with artisan comfort. 
+            </p>
+            <p class="text-[#F97316] font-semibold text-lg italic pt-2">
+                Inside the smoker is warming up, and the bakery is crafting.
+            </p>
+        </div>
+
+        <div class="mt-10 pt-6 border-t border-gray-800 text-sm text-gray-400">
+            <p class="mb-1">Spotted something in the deep woods?</p>
+            <p>Report filings & dispatches: <span class="text-[#F97316] font-mono">sightings@awacuniverse.com</span></p>
+        </div>
+
+    </div>
+
+</body>
+</html>
